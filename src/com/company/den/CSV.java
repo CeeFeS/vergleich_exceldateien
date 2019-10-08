@@ -24,8 +24,8 @@ public class CSV {
 
                 // use comma as separator
                 String[] zellen = line.split(cvsSplitBy);
-
-                zeilen.add(new Zeile(zellen));
+                Zeile zeile = new Zeile(zellen);
+                zeilen.add(zeile);
 
             }
 
