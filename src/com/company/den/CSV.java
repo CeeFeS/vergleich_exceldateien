@@ -23,10 +23,12 @@ public class CSV {
             while ((line = br.readLine()) != null) {
 
                 // use comma as separator
-                String[] zellen = line.split(cvsSplitBy);
-                Zeile zeile = new Zeile(zellen);
-                zeilen.add(zeile);
 
+                String[] zellen = line.split(cvsSplitBy);
+                if (zellen != null) {
+                    Zeile zeile = new Zeile(zellen);
+                    zeilen.add(zeile);
+                }
             }
 
         } catch (FileNotFoundException e) {
