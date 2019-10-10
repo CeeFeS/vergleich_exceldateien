@@ -16,7 +16,7 @@ public class CSV {
         String line = "";
         String cvsSplitBy = ";";
         ArrayList<String> informationen;
-
+        zeilen = new ArrayList<Zeile>();
         try {
 
             br = new BufferedReader(new FileReader(csvFile));
