@@ -46,8 +46,11 @@ public class Main {
             System.out.println(csv1_spalte4 + " Spalte soll bei: " + datei2 + " mit ... verglichen werden: ");
             String csv2_spalte4 = scanner.nextLine();
 
-            vergleich.ausführen(csv1_spalte1, csv1_spalte2, csv1_spalte3, csv1_spalte4, csv2_spalte1, csv2_spalte2, csv2_spalte3, csv2_spalte4);
+            int[] auswertung = vergleich.ausführen(csv1_spalte1, csv1_spalte2, csv1_spalte3, csv1_spalte4, csv2_spalte1, csv2_spalte2, csv2_spalte3, csv2_spalte4);
 
+            for (int i = 0; i < auswertung.length; i++) {
+                System.out.println(auswertung[i]);
+            }
         }
     }
 }
