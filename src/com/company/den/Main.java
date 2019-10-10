@@ -55,6 +55,8 @@ public class Main {
             System.out.println("Anzahl der richtigen Spalte\t" + csv1_spalte2 + "\t" + auswertung[1]);
             System.out.println("Anzahl der richtigen Spalte\t" + csv1_spalte3 + "\t" + auswertung[2]);
             System.out.println("Anzahl der richtigen Spalte\t" + csv1_spalte4 + "\t" + auswertung[3]);
+            System.out.println("-----------------------------------------------------------------------------");
+            System.out.println("Anzahl der gesamt richtigen: " + auswertung[4]);
         }
     }
 }
