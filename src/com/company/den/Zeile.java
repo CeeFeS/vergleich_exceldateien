@@ -3,7 +3,7 @@ package com.company.den;
 public class Zeile {
     String[] zellen;
 
-    public Zeile(String[] zelle) {
+    public Zeile(String[] zellen) {
         this.zellen = zellen;
     }
 

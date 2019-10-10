@@ -25,10 +25,10 @@ public class CSV {
                 // use comma as separator
 
                 String[] zellen = line.split(cvsSplitBy);
-                if (zellen != null) {
+
                     Zeile zeile = new Zeile(zellen);
                     zeilen.add(zeile);
-                }
+
             }
 
         } catch (FileNotFoundException e) {
