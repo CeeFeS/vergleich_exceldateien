@@ -48,9 +48,10 @@ public class Main {
 
             int[] auswertung = vergleich.ausführen(csv1_spalte1, csv1_spalte2, csv1_spalte3, csv1_spalte4, csv2_spalte1, csv2_spalte2, csv2_spalte3, csv2_spalte4);
 
-            for (int i = 0; i < auswertung.length; i++) {
-                System.out.println(auswertung[i]);
-            }
+            System.out.println("Anzahl der richtigen Spalte\t" + csv1_spalte1 + "\t" + auswertung[0]);
+            System.out.println("Anzahl der richtigen Spalte\t" + csv1_spalte2 + "\t" + auswertung[1]);
+            System.out.println("Anzahl der richtigen Spalte\t" + csv1_spalte3 + "\t" + auswertung[2]);
+            System.out.println("Anzahl der richtigen Spalte\t" + csv1_spalte4 + "\t" + auswertung[3]);
         }
     }
 }

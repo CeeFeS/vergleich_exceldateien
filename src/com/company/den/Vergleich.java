@@ -29,16 +29,18 @@ public class Vergleich {
 
                     if (zeile1.getZelle(Integer.parseInt(csv1_spalte1)).trim().equals(zeile2.getZelle(Integer.parseInt(csv2_spalte1)).trim())) {
                         spalte1++;
+                        if (zeile1.getZelle(Integer.parseInt(csv1_spalte2)).trim().equals(zeile2.getZelle(Integer.parseInt(csv2_spalte2)).trim())) {
+                            spalte2++;
+                            if (zeile1.getZelle(Integer.parseInt(csv1_spalte3)).trim().equals(zeile2.getZelle(Integer.parseInt(csv2_spalte3)).trim())) {
+                                spalte3++;
+                                if (zeile1.getZelle(Integer.parseInt(csv1_spalte4)).trim().equals(zeile2.getZelle(Integer.parseInt(csv2_spalte4)).trim())) {
+                                    spalte4++;
+                                }
+                            }
+                        }
                     }
-                    if (zeile1.getZelle(Integer.parseInt(csv1_spalte2)).trim().equals(zeile2.getZelle(Integer.parseInt(csv2_spalte2)).trim())) {
-                        spalte2++;
-                    }
-                    if (zeile1.getZelle(Integer.parseInt(csv1_spalte3)).trim().equals(zeile2.getZelle(Integer.parseInt(csv2_spalte3)).trim())) {
-                        spalte3++;
-                    }
-                    if (zeile1.getZelle(Integer.parseInt(csv1_spalte4)).trim().equals(zeile2.getZelle(Integer.parseInt(csv2_spalte4)).trim())) {
-                        spalte4++;
-                    }
+
+
                 }
 
             }
