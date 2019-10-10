@@ -48,8 +48,8 @@ public class Main {
 
             int[] auswertung = vergleich.ausführen(csv1_spalte1, csv1_spalte2, csv1_spalte3, csv1_spalte4, csv2_spalte1, csv2_spalte2, csv2_spalte3, csv2_spalte4);
 
-            System.out.println("Anzahl der Zeilen für\t" + csv1 + "\t" + auswertung[4]);
-            System.out.println("Anzahl der Zeilen für\t" + csv2 + "\t" + auswertung[5]);
+            System.out.println("Anzahl der Zeilen für\t" + csv1 + "\t" + csv_allezeilen.size());
+            System.out.println("Anzahl der Zeilen für\t" + csv2 + "\t" + csv2_allezeilen.size());
             System.out.println("-----------------------------------------------------------------------------");
             System.out.println("Anzahl der richtigen Spalte\t" + csv1_spalte1 + "\t" + auswertung[0]);
             System.out.println("Anzahl der richtigen Spalte\t" + csv1_spalte2 + "\t" + auswertung[1]);

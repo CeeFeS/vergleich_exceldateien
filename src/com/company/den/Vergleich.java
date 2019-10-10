@@ -22,15 +22,9 @@ public class Vergleich {
         int spalte3 = 0;
         int spalte4 = 0;
 
-        int anzahl_zeilen_1 = 0;
-        int anzahl_zeilen_2 = 0;
-
-
         for (Zeile zeile1 : csv1_zeilen) {
-
             for (Zeile zeile2 : csv2_zeilen) {
                 if (zeile1 != null && zeile2 != null) {
-
                     if (zeile1.getZelle(Integer.parseInt(csv1_spalte1)).trim().equals(zeile2.getZelle(Integer.parseInt(csv2_spalte1)).trim())) {
                         spalte1++;
                         if (zeile1.getZelle(Integer.parseInt(csv1_spalte2)).trim().equals(zeile2.getZelle(Integer.parseInt(csv2_spalte2)).trim())) {
@@ -49,7 +43,7 @@ public class Vergleich {
 
             }
         }
-        int[] auswertung = {spalte1, spalte2, spalte3, spalte4, anzahl_zeilen_1, anzahl_zeilen_2};
+        int[] auswertung = {spalte1, spalte2, spalte3, spalte4};
         return auswertung;
     }
 
