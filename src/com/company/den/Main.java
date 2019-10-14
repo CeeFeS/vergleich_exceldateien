@@ -53,10 +53,10 @@ public class Main {
             System.out.println("Anzahl der Zeilen für\t" + datei1 + "\t" + csv_allezeilen.size());
             System.out.println("Anzahl der Zeilen für\t" + datei2 + "\t" + csv2_allezeilen.size());
             System.out.println("-----------------------------------------------------------------------------");
-            System.out.println("Anzahl der richtigen Spalte\t" + csv1_spalte1 + " und " + csv2_spalte1 + "\t" + auswertung[0]);
-            System.out.println("Anzahl der richtigen Spalte\t" + csv1_spalte1 + " und " + csv2_spalte1 + csv1_spalte2 + " und " + csv2_spalte2 + "\t" + auswertung[1]);
-            System.out.println("Anzahl der richtigen Spalte\t" + csv1_spalte1 + " und " + csv2_spalte1 + csv1_spalte2 + " und " + csv2_spalte2 + csv1_spalte3 + " und " + csv2_spalte3 + "\t" + auswertung[2]);
-            System.out.println("Anzahl der richtigen Spalte\t" + csv1_spalte1 + " und " + csv2_spalte1 + csv1_spalte2 + " und " + csv2_spalte2 + csv1_spalte3 + " und " + csv2_spalte3 + csv1_spalte4 + " und " + csv2_spalte4 + "\t" + auswertung[3]);
+            System.out.println("Anzahl der richtigen Spalte\t" + csv1_spalte1 + " und " + csv2_spalte1 + "\t--------------->" + auswertung[0]);
+            System.out.println("Anzahl der richtigen Spalte\t" + csv1_spalte1 + " und " + csv2_spalte1 + "\t" + csv1_spalte2 + " und " + csv2_spalte2 + "\t--------------->" + auswertung[1]);
+            System.out.println("Anzahl der richtigen Spalte\t" + csv1_spalte1 + " und " + csv2_spalte1 + "\t" + csv1_spalte2 + " und " + csv2_spalte2 + "\t" + csv1_spalte3 + " und " + csv2_spalte3 + "\t--------------->" + auswertung[2]);
+            System.out.println("Anzahl der richtigen Spalte\t" + csv1_spalte1 + " und " + csv2_spalte1 + "\t" + csv1_spalte2 + " und " + csv2_spalte2 + "\t" + csv1_spalte3 + " und " + csv2_spalte3 + "\t" + csv1_spalte4 + " und " + csv2_spalte4 + "\t--------------->" + auswertung[3]);
             System.out.println("-----------------------------------------------------------------------------");
             System.out.println("Anzahl der gesamt richtigen: " + auswertung[4]);
         }
