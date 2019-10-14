@@ -11,5 +11,12 @@ public class Zeile {
         return zellen[i];
     }
 
-
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        for (String zelle : zellen) {
+            sb.append(zelle + " ");
+        }
+        return sb.toString();
+    }
 }
